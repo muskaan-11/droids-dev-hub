@@ -1,3 +1,5 @@
+import heroImage from '../assets/images/hero_droids_studio_1795703175663.jpg';
+
 export type AppCategory = 'Utility Applications' | 'Mobile Games';
 
 export interface FocusCategory {
@@ -10,7 +12,7 @@ export interface FocusCategory {
 
 export const SITE_CONFIG = {
   brandName: 'Droids',
-  heroImage: '/src/assets/images/hero_droids_studio_1795703175663.jpg',
+  heroImage,
   playStoreDeveloperUrl: 'https://play.google.com/store/apps/dev?id=5549673104415412912',
   contact: {
     email: 'droidsapk8@gmail.com',
@@ -131,3 +133,4 @@ export const LEGAL_DOCUMENTS = {
     ],
   },
 } as const;
+

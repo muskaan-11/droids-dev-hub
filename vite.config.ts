@@ -9,6 +9,8 @@ const configDir = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig(() => {
   return {
+    // GitHub project pages serve this site from /droids-dev-hub/.
+    base: '/droids-dev-hub/',
     plugins: [
       react(),
       tailwindcss(),
