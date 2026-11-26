@@ -1,8 +1,29 @@
 node_modules/
-build/
 dist/
+build/
 coverage/
-.DS_Store
-*.log
-.env*
+
+# Environment files (keep the documented template)
+.env
+.env.*
 !.env.example
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*service-account*.json
+*service_account*.json
+*credentials*.json
+
+# Local development and operating system files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.swp
+*.swo
