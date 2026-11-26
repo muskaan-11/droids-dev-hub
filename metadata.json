@@ -1,0 +1,6 @@
+{
+  "name": "Droids",
+  "description": "Droids is an independent mobile app and game development brand building practical applications and engaging games for everyday life.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
